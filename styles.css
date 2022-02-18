@@ -42,7 +42,6 @@ html {
 }
 
 .text {
-    /*display: flex;*/
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -310,7 +309,6 @@ html {
 }
 
 .third-content {
-    /*height: 600px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -409,7 +407,6 @@ html {
 
 .fourth-text-top {
     display: flex;
-    /*margin-top: 20px;*/
     font-family: Playfair Display;
     font-size: 36px;
     line-height: 42px;
@@ -508,7 +505,7 @@ html {
 
 .image-brand {
     display: flex;
-    width: 60%; /*591px/260px*/
+    width: 60%;
     height: 80%;
     justify-content: space-around;
     background-color: #0f0f0f;
@@ -529,7 +526,6 @@ html {
     flex: 1;
     flex-direction: column;
     margin-top: 8%;
-    /*justify-content: center;*/
 
 }
 
@@ -549,7 +545,6 @@ html {
     font-size: 14px;
     line-height: 21px;
     color: #fcfcfc;
-    /*align-items: center;*/
     margin-top: 40px;
 }
 
