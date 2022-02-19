@@ -539,7 +539,7 @@ html {
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 8% 0px 30px 20px;
+    margin: 8% 10px 30px 10px;
 }
 
 .sixth-left-top {
@@ -567,7 +567,7 @@ html {
     flex-direction: column;
     /*margin-top: 8%;*/
     /*padding-right: 1%;*/
-    margin: 8% 30px 30px 20px;
+    margin: 8% 10px 30px 10px;
 
 }
 
@@ -624,7 +624,7 @@ html {
     flex: 1;
     flex-direction: column;
     /*margin-top: 8%;*/
-    margin: 8% 0px 10px 20px;
+    margin: 8% 10px 10px 10px;
 
 }
 
