@@ -475,7 +475,6 @@ html {
     color: #FFFFFF;
 }
 
-
 .fourth-content {
     display: flex;
     flex-wrap: wrap;
@@ -517,7 +516,6 @@ html {
     align-content: center;
     gap: 20px;
     margin: 50px 0px;
-
 }
 
 .fifth-content {
@@ -528,7 +526,6 @@ html {
     align-items: center;
     flex-direction: column;
     min-height: 360px;
-
 }
 
 .fifth-text-top {
@@ -567,7 +564,6 @@ html {
     flex: 1;
     margin-bottom: 20px;
 }
-
 
 .image-brand {
     display: flex;
@@ -650,7 +646,6 @@ html {
     color: #fcfcfc;
     min-width: 210px;
     padding: 10px;
-
 }
 
 .sixth-content-button {
@@ -677,7 +672,6 @@ html {
     flex: 1;
     flex-direction: column;
     margin: 8% 5px 10px 10px;
-
 }
 
 .sixth-right-top {
