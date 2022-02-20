@@ -273,6 +273,7 @@ html {
     min-width: fit-content;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
     align-content: center;
     margin-top: 22px;
@@ -283,6 +284,7 @@ html {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -551,17 +553,13 @@ html {
     align-content: center;
 }
 
-.column1 {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .column-second {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
     margin-bottom: 20px;
 }
 
