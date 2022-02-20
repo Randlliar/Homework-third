@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&family=Stick+No+Bills:wght@300;800&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <script src="https://kit.fontawesome.com/c30f191b32.js" crossorigin="anonymous"></script>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Stick+No+Bills:wght@300;800&display=swap');
-    </style>
 </head>
 
 <body>
@@ -21,16 +20,21 @@
         <div class="margin">
             <div class="top-header">
                 <div class="block">
-                    <div class="fa-solid fa-phone"></div>
+                    <div class="padding">
+                        <img src="images/phone.png" alt="phone"/>
+                    </div>
                     <div class="content-top-header-left">
                         8 (812) 123-45-67 | Работаем 7 дней в неделю | 9:00 — 18:00
                     </div>
                 </div>
-                <div class="block">
-                    <div class="fa-solid fa-arrow-right-to-bracket"></div>
-                    <div class="content-top-header-right">
-                        Войти / Регистрация
+                <div class="block ">
+                    <div class="block">
+                        <img src="images/doorway.png" alt="doorway"/>
+                        <img src="images/door.png" alt="door"/>
                     </div>
+                    <button class="text">
+                        Войти / Регистрация
+                    </button>
                 </div>
             </div>
         </div>
@@ -42,11 +46,15 @@
                     Porten
                 </div>
                 <div class="content-bottom-header-right">
-                    <div class="text block">Понравилось</div>
-                    <div class="text block">Личный кабинет</div>
-                    <div class="text block">Настройки</div>
-                    <div class="fa-solid fa-cart-shopping block"></div>
-                    <div class="fa-solid fa-magnifying-glass block"></div>
+                    <button class="text-second">Понравилось</button>
+                    <button class="text-second">Личный кабинет</button>
+                    <button class="text-second">Настройки</button>
+                    <div class="icon-margin">
+                        <img class="icon" src="images/cart.png"/>
+                    </div>
+                    <div class="icon-margin">
+                        <img class="icon" src="images/loupe.png"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,8 +83,9 @@
         <div class="second-content-left">
             <div class="second-content-text">
                 <div>СЕЗОН 2020/21</div>
-                <div class="line"></div>
+
             </div>
+            <div class="line"></div>
             <div class="second-content-image">
                 <div class="column">
                     <div class="image-clock">
@@ -105,9 +114,8 @@
             <div class="second-content-text-right">
                 Новая коллекция
             </div>
-            <div class="block-content-second">
-                <div>Каталог</div>
-            </div>
+            <div class="line"></div>
+            <button class="button" type="button">Каталог</button>
         </div>
     </div>
 
@@ -131,9 +139,7 @@
                 nullam natoque volutpat curabitur auctor. Viverra viverra ullamcorper scelerisque risus dignissim
                 egestas. Id aliquam a aliquam egestas leo orci pharetra sed diam.
             </div>
-            <div class="third-content-block">
-                <div class="third-content-block-text">Посмотреть коллекцию</div>
-            </div>
+            <button class="button">Посмотреть коллекцию</button>
         </div>
     </div>
     <div class="fourth-content">
@@ -255,11 +261,11 @@
                     </div>
                     <div class="sixth-middle-bottom">
                         <div class="child-middle-top">
-                            <div class="sixth-content-button">часы</div>
-                            <div class="sixth-content-button">браслеты</div>
-                            <div class="sixth-content-button">ремни</div>
-                            <div class="sixth-content-button">ювелирные изделия</div>
-                            <div class="sixth-content-button">запонки</div>
+                            <button class="button-second">часы</button>
+                            <button class="button-second">браслеты</button>
+                            <button class="button-second">ремни</button>
+                            <button class="button-second">ювелирные изделия</button>
+                            <button class="button-second">запонки</button>
                         </div>
                     </div>
                 </div>
@@ -271,8 +277,8 @@
                         nunc cursus tortor lectus nunc nulla nibh.
                     </div>
                     <div class="row">
-                        <div class="mail">Ваша почта</div>
-                        <div class="sixth-content-button">Подиписаться</div>
+                        <input class="input" type="search" placeholder="Ваша почта"/>
+                        <div class="button-third">Подиписаться</div>
                     </div>
                 </div>
             </div>
