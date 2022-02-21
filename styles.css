@@ -677,10 +677,6 @@ html {
     list-style-type: none;
 }
 
-.ul{
-    padding: 0;
-}
-
 .sixth-content-right {
     display: flex;
     flex: 1;
