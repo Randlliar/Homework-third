@@ -15,7 +15,7 @@
 
 <body>
 
-<div class="header">
+<header class="header">
     <div class="background">
         <div class="margin">
             <div class="top-header">
@@ -23,9 +23,9 @@
                     <div class="padding">
                         <img alt="phone" src="images/phone.png"/>
                     </div>
-                    <div class="content-top-header-left">
+                    <span class="content-top-header-left">
                         8 (812) 123-45-67 | Работаем 7 дней в неделю | 9:00 — 18:00
-                    </div>
+                    </span>
                 </div>
                 <div class="block ">
                     <div class="block">
@@ -43,10 +43,10 @@
     <div class="background-second">
         <div class="margin">
             <div class="bottom-header">
-                <div class="content-bottom-header-left">
+                <span class="content-bottom-header-left">
                     Porten
-                </div>
-                <div class="content-bottom-header-right">
+                </span>
+                <nav class="content-bottom-header-right">
                     <button class="text-second">Понравилось</button>
                     <button class="text-second">Личный кабинет</button>
                     <button class="text-second">Настройки</button>
@@ -56,37 +56,37 @@
                     <div class="icon-margin">
                         <img class="icon" src="images/loupe.png"/>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </div>
-</div>
+</header>
 
-<div class="content">
-    <div class="first-content">
+
+<main class="content">
+    <section class="first-content">
         <div class="first-middle-content">
-            <div class="middle-content-text">
+            <h1 class="middle-content-text">
                 Porten
-            </div>
-            <div class="bottom-middle-content-text">Санкт-Петербург</div>
+            </h1>
+            <h2 class="bottom-middle-content-text">Санкт-Петербург</h2>
         </div>
-        <div class="first-content-bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+        <p class="first-content-bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
             interdum
             purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu
             interdum
             nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna
             feugiat id
             nunc, dui nisl viverra.
-        </div>
-    </div>
+        </p>
+    </section>
 
-    <div class="second-content">
+    <section class="second-content">
         <div class="second-content-left">
             <div class="second-content-text">
-                <div>СЕЗОН 2020/21</div>
-
+                <h3 class="header-season">Сезон 2020/21</h3>
             </div>
-            <div class="line"></div>
+            <hr class="line"/>
             <div class="second-content-image">
                 <div class="column">
                     <div class="image-clock">
@@ -113,22 +113,22 @@
         </div>
         <div class="second-content-right">
             <div class="second-content-text-right">
-                Новая коллекция
+                <h3 class="header-season">Новая коллекция</h3>
             </div>
-            <div class="line"></div>
+            <hr class="line"/>
             <button class="button" type="button">Каталог</button>
         </div>
-    </div>
+    </section>
 
-    <div class="third-content">
+    <section class="third-content">
         <div class="third-content-left">
         </div>
         <div class="third-content-right">
             <div class="third-content-text-top">
-                <div>Коллекция 2018</div>
-                <div class="line"></div>
+                <span>Коллекция 2018</span>
+                <hr class="line"/>
             </div>
-            <span class="third-content-text-middle">
+            <p class="third-content-text-middle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut mattis habitant dui
                 arcu.
                 Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed scelerisque
@@ -139,15 +139,16 @@
                 nulla
                 nullam natoque volutpat curabitur auctor. Viverra viverra ullamcorper scelerisque risus dignissim
                 egestas. Id aliquam a aliquam egestas leo orci pharetra sed diam.
-            </span>
+            </p>
             <button class="button">Посмотреть коллекцию</button>
         </div>
-    </div>
-    <div class="fourth-content">
-        <div class="fourth-text-top">
+    </section>
+
+    <section class="fourth-content">
+        <h3 class="fourth-text-top">
             Новые поступления
-        </div>
-        <div class="line"></div>
+        </h3>
+        <hr class="line"/>
         <div class="background">
             <div class="margin">
                 <div class="fourth-content-image">
@@ -210,13 +211,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="fifth-content">
-        <div class="fifth-text-top">
+    <section class="fifth-content">
+        <h3 class="fifth-text-top">
             Наши бренды
-        </div>
-        <div class="line"></div>
+        </h3>
+        <hr class="line"></hr>
         <div class="fifth-content-image">
             <div class="column1">
                 <div class="image-brand">
@@ -239,14 +240,15 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="footer">
-    <div class="background-third">
+    </section>
+</main>
+
+<footer class="footer">
+    <section class="background-third">
         <div class="margin">
             <div class="sixth-content">
                 <div class="sixth-content-left">
-                    <div class="sixth-left-top">О магазине</div>
+                    <h3 class="sixth-left-top header-season">О магазине</h3>
                     <span class="sixth-left-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                         semper
                         viverra
@@ -257,27 +259,39 @@
                     </span>
                 </div>
                 <div class="sixth-content-middle">
-                    <div class="sixth-middle-top">
+                    <h3 class="sixth-middle-top header-season">
                         Категории
-                    </div>
+                    </h3>
                     <div class="sixth-middle-bottom">
-                        <div class="child-middle-top">
-                            <button class="button-second">часы</button>
-                            <button class="button-second">браслеты</button>
-                            <button class="button-second">ремни</button>
-                            <button class="button-second">ювелирные изделия</button>
-                            <button class="button-second">запонки</button>
-                        </div>
+                        <nav>
+                            <ul class="child-middle-top ul">
+                                <li>
+                                    <button class="button-second">часы</button>
+                                </li>
+                                <li>
+                                    <button class="button-second">браслеты</button>
+                                </li>
+                                <li>
+                                    <button class="button-second">ремни</button>
+                                </li>
+                                <li>
+                                    <button class="button-second">ювелирные изделия</button>
+                                </li>
+                                <li>
+                                    <button class="button-second">запонки</button>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="sixth-content-right">
-                    <div class="sixth-right-top">Рассылка</div>
-                    <span class="sixth-middle-text">
+                    <h3 class="sixth-right-top header-season">Рассылка</h3>
+                    <p class="sixth-middle-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                         semper
                         viverra
                         nunc cursus tortor lectus nunc nulla nibh.
-                    </span>
+                    </p>
                     <div class="row">
                         <input class="input" placeholder="Ваша почта" type="search"/>
                         <button class="button-third">Подиписаться</button>
@@ -285,15 +299,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row-second">
-        <div>© 2020 Все права защищены</div>
-        <div>
+    </section>
+    <section class="row-second">
+        <span>© 2020 Все права защищены</span>
+        <span>
             Сделано
             Figma.info
-        </div>
-    </div>
-</div>
+        </span>
+    </section>
+</footer>
 </body>
 
 </html>
